@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Harvest Android Client</string>
+<string name="loading_daily_data">Loading activity...</string>
+<string name="login_failed">Login Failed!</string>
+<string name="connect_failed">Connection Failed!</string>
+<string name="error_future_date">Date is in the future!</string>
+<string name="project_title">Choose Client / Project...</string>
+<string name="task_title">Choose Task...</string>
+<string name="update_failed">Update Failed</string>
+<string name="need_project_task">Please specify both a project and a task.</string>
+<string name="delete_failed">Delete Failed!</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/gradient" android:id="@+id/RowLayout" android:clickable="true" android:longClickable="true">
+
+
+
+<LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1" android:layout_width="fill_parent" android:id="@+id/RowLayoutLeft"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/total_color" android:textSize="16sp" android:textStyle="bold" android:layout_marginLeft="2dp" android:layout_marginTop="2dp" android:text="Project Description" android:id="@+id/RowProjectDescription"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="14sp" android:textColor="@color/total_color" android:layout_marginLeft="2dp" android:id="@+id/RowTaskDescription" android:text="Task"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Comment" android:id="@+id/RowComment" android:textSize="10sp" android:textColor="@color/total_color" android:layout_marginBottom="2dp" android:layout_marginLeft="10dp"></TextView>
+</LinearLayout>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/RowLayoutRight"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/RowTime" android:text="0:00" android:layout_gravity="center_vertical" android:paddingLeft="5dp" android:layout_weight="0" android:textColor="@color/total_color"></TextView><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/editarrow" android:layout_gravity="center_vertical" android:layout_marginLeft="5dp" android:layout_marginRight="8dp"></ImageView>
+</LinearLayout>
+
+
+
+</LinearLayout>

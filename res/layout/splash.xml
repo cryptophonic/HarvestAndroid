@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@color/splash_background" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+<ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/splash" android:layout_gravity="center_horizontal" android:layout_marginTop="40dp"></ImageView>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textColor="#000000" android:textSize="20sp" android:text="Harvest Android Client"></TextView>
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textSize="10sp" android:text="Licensed under the GPL3 open source license"></TextView>
+
+
+</LinearLayout>
